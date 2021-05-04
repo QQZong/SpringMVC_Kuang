@@ -5,3 +5,6 @@
 
 springMVC运行原理
 ![img_2.png](img_2.png)
+
+重定向和转发：
+![img_3.png](img_3.png)

@@ -12,6 +12,7 @@
     <modules>
         <module>spring-mvc-hello</module>
         <module>spring-mvc-hello-2</module>
+        <module>spring-mvc-annotation</module>
     </modules>
 
     <properties>
@@ -53,4 +54,24 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 </project>
