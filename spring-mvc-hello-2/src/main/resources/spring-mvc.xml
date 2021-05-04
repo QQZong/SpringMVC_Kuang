@@ -7,10 +7,10 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/mvc
         https://www.springframework.org/schema/mvc/spring-mvc.xsd">
-    <!--注解配置-->
-    <mvc:annotation-driven/>
-    <!--讲原理才用的BeanNameUrlHandlerMapping-->
+
+    <!--处理器映射器  讲原理才用的BeanNameUrlHandlerMapping-->
     <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+    <!--处理器适配器-->
     <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
     <!--视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="internalResourceViewResolver">
@@ -19,6 +19,4 @@
         <!--后缀-->
         <property name="suffix" value=".jsp"/>
     </bean>
-
-    <bean id="/hello" class="com.qin.controller.HelloController"/>
 </beans>

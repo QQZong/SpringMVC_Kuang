@@ -11,6 +11,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-mvc-hello</module>
+        <module>spring-mvc-hello-2</module>
     </modules>
 
     <properties>

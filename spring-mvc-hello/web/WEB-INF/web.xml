@@ -17,6 +17,11 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
 
+    <!--
+    在SpringMVC中，/  /*
+    /:只匹配所有的请求，不会去匹配jsp页面
+    /* :匹配所有的请求，包括jsp页武
+    -->
     <!--匹配所有请求-->
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
