@@ -1,13 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="spring-mvc-json:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc_json_war_exploded</output-path>
+  <artifact type="exploded-war" name="spring-mvc-ajax:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc_ajax_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="spring-mvc-json/web/Web" />
+      <element id="javaee-facet-resources" facet="spring-mvc-ajax/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="spring-mvc-json" />
+          <element id="module-output" name="spring-mvc-ajax" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.76" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.3" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.3" />
@@ -25,7 +26,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.5" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.76" />
+          <element id="library" level="application" name="bootstrap" />
         </element>
       </element>
     </root>

@@ -11,6 +11,7 @@
         <module name="spring-mvc-json" />
         <module name="spring-mvc-hello-2" />
         <module name="spring-mvc-hello" />
+        <module name="spring-mvc-ajax" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

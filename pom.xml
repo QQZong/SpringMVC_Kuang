@@ -14,6 +14,7 @@
         <module>spring-mvc-hello-2</module>
         <module>spring-mvc-annotation</module>
         <module>spring-mvc-json</module>
+        <module>spring-mvc-ajax</module>
     </modules>
 
     <properties>
